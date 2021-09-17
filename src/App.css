@@ -4,6 +4,9 @@ body {
   overflow-x: hidden;
   font-family: 'latoregular' !important;
 }
+.fa, .far, .fas {
+  font-family: "Font Awesome 5 Free";
+}
 ul li {
     list-style: none;
     font-family: 'poppinslight';
