@@ -1,0 +1,43 @@
+.counter_wrapper {
+    overflow: visible;
+    background: #f2efff;
+    position: relative;
+    padding: 80px 0;
+    padding-bottom: 60px;
+    width: 100%;
+    float: left;
+    height: 100%;
+}
+.counter_mockup_design {
+    position: relative;
+    left: -50px;
+    z-index: 10;
+    float: left;
+    width: 100%;
+}
+.counter_jbbb {
+    position: absolute;
+    top: -116px;
+    left: -172px;
+    z-index: 1;
+    float: left;
+    width: 100%;
+}
+.counter_mockup_design img {
+    position: relative;
+    z-index: 1;
+    animation: movebounce 3.9s linear infinite;
+}
+.counter_right_wrapper h1 {
+    font-size: 40px;
+    color: #222;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.counter_right_wrapper {
+    text-align: right;
+    padding-top: 55px;    
+    float: left;
+    width: 100%;
+
+}

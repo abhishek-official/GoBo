@@ -1,0 +1,26 @@
+.pricing_table_3 {
+    padding: 100px 0;
+    background: rgb(247, 236, 255);
+    position: relative;
+    background: linear-gradient(0deg, rgb(247, 236, 255) 9%, rgb(240, 240, 255) 100%);
+}
+.slider_small_shape44 {
+    position: absolute;
+    top: 35%;
+    left: -90px;
+    -webkit-animation: moveleftbounce 3.0s linear infinite;
+    animation: moveleftbounce 3.0s linear infinite;
+}
+.counter_jbbb2 img {
+    position: absolute;
+    right: -135px;
+    top: 103px;
+}
+#partner-slider .owl-item {
+    min-height: 100px;
+    max-height: 100px;
+    overflow: hidden;
+}
+#partner-slider .owl-item img {
+    height: 100%;
+}

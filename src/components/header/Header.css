@@ -1,0 +1,196 @@
+.top_header {
+    border-bottom: 0;
+    background: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.jb_cover {
+    float: left;
+    width: 100%;
+  }
+  .site-logo {
+    height: auto;
+    width: 70px;
+}
+.custom-nav {
+    width: 100%;
+}
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+/* .nav-item {
+    height: 80px;
+} */
+.nav-links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+}
+header.top_header .mega-menu {
+    position: initial !important;
+}
+header.top_header a#basic-nav-dropdown {
+    color: #09173b !important;
+    display: block;
+    text-transform: capitalize;
+    font-size: 16px;
+    position: relative;
+    overflow: hidden;
+}
+header.top_header .mega-menu .dropdown-menu.show {
+    border-top: 3px solid #09173b;
+    border-radius: 0px;
+}
+
+header.top_header .mega-menu .dropdown-menu.show {
+    width: 100%;
+    max-width: 1070px;
+    margin: auto;
+    left: 50%;
+    right: 0;
+    padding: 0px;
+    transform: translateX(-50%);
+    /* top: calc(100% + 30px); */
+}
+header.top_header .dropdown-menu.show .container {
+    width: 100%!important;
+    max-width: 100%!important;
+    display: block;
+}
+header.top_header .text-left.sub_menu_block {
+    padding: 0px;
+    border-right: 1px solid #e2e2e2;
+    min-height: 361px;
+}
+header.top_header .dropdown-header {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #09173b;
+    font-weight: 400;
+    border: 0;
+    padding: 30px;
+    padding-bottom: 20px;
+    transition: all 0.5s;
+    font-family: 'Poppins';
+}
+header.top_header .dropdown-menu.show a.nav-link {
+    padding: 0px 0px!important;
+    color: #797979!important;
+}
+header.top_header .main_nav_ul .nav-link a {
+    color: #09173b !important;
+    display: block;
+    text-transform: capitalize;
+    font-size: 16px;
+    position: relative;
+    overflow: hidden;
+    padding: 15px 15px;
+    line-height: 30px;
+}
+header.top_header .dropdown-menu .dropdown-item {
+    padding: .5rem .5rem !important;
+    font-size: 14px;
+}
+header.top_header .dropdown-menu .dropdown-item:hover {
+    background: linear-gradient(90deg, rgb(9 23 59) 25% 25%, rgb(109, 104, 254) 100%);
+}
+header.top_header .dropdown-menu .dropdown-item:hover a.nav-link {
+    color: #fff !important;
+}
+header.top_header .dropdown-menu a.nav-link > a::before {
+    content: '\f111';
+    font-family: 'Font-Awesome';
+    margin-right: 10px;
+    color: #09173b;
+}
+header.top_header .dropdown-menu .dropdown-header {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem .5rem;
+}
+
+.gc_main_navigation.active_class:before {
+    position: absolute;
+    content: '';
+    background: #09173b;
+    width: 0;
+    height: 3px;
+    left: 0px;
+    right: 0;
+    margin: 0px auto;
+    bottom: 0;
+    transition: all 500ms ease;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(244, 55, 55, 0.24) 50%, #f43737 50%, rgba(0,0,0,1) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+}
+.gc_main_navigation.active_class:after{
+    position: absolute;
+    content: '';
+    background: #ffffff;
+    width: 6px;
+    height: 3px;
+    right: 32%;
+    bottom: 0;
+    transition: all 300ms ease;
+}
+.active_class:before {
+    position: absolute;
+    content: '';
+    background: #09173b;
+    width: 60px !important;
+    height: 3px;
+    left: 0px;
+    right: 0;
+    margin: 0px auto;
+    bottom: 0;
+    transition: all 500ms ease;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(244, 55, 55, 0.24) 50%, #f43737 50%, rgba(0,0,0,1) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+}
+
+.posting_job ul {
+    display: flex;
+}
+.posting_job ul li {
+    padding: 0 15px;
+}
+.profile-dropdown {
+    position: relative !important;
+}
+
+.profile-dropdown .dropdown-menu ul {
+    display: block;
+}
+.profile-dropdown .dropdown-menu {
+    top: 55px;
+    left: -120px;
+    border-top: 3px solid #09173b;
+}
+header.top_header .profile-dropdown .dropdown-item:hover {
+    color: #fff;
+}
+header.top_header .profile-dropdown .dropdown-item i {
+    width: 20px;
+    text-align: center;
+}
+@keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+  }

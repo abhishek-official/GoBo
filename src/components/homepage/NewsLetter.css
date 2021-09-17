@@ -1,0 +1,30 @@
+.job_newsletter_wrapper {
+    margin: 50px 0;
+    border-bottom: 1px solid #e2e2e2;
+    /* padding-bottom: 20px; */
+}
+.jb_newslwtteter_left {
+    float: left;
+    width: 70%;
+}
+.jb_newslwtteter_left h2 {
+    font-size: 36px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.jb_newslwtteter_button {
+    float: left;
+    width: 30%;
+}
+.jb_newslwtteter_button .jobs_btn_3 {
+    margin-top: 0;
+    text-align: center;
+}
+.jb_newslwtteter_button .jobs_btn_3 a {
+    width: 220px;
+}
+.jobs_btn_3 a {
+    float: none;
+    display: inline-block;
+}

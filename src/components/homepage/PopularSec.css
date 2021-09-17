@@ -1,0 +1,108 @@
+.popular_wrapper {
+    position: relative;
+    background: #fff;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.shapenew {
+    top: 15%;
+    bottom: auto;
+}
+.jp_register_section_main_wrapper {
+    border-radius: 200px;
+    border: 1px solid #e2e2e2;
+}
+.jp_regis_left_side_box_wrapper {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 50px;
+    border-right: 1px solid #e2e2e2;
+    position: relative;
+}
+.jp_regis_left_side_box {
+    display: inline-block;
+}
+.jp_regis_left_side_box_wrapper i:before, .jp_regis_right_side_box i:before {
+    color: #fff;
+    font-size: 40px;
+    transition: all 0.5s;
+}
+.jp_regis_left_side_box h4 {
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+.jp_regis_left_side_box p {
+    padding-top: 20px;
+    color: #d9d7de;
+}
+.jp_regis_left_side_box ul {
+    position: relative;
+    bottom: -32px;
+    margin-top: 15px;
+}
+.jp_regis_right_side_box_wrapper {
+    float: left;
+    width: 50%;
+    padding-top: 50px;
+    position: relative;
+    text-align: center;
+}
+.jp_regis_right_side_box {
+    display: inline-block;
+    position: relative;
+}
+.jp_regis_right_side_box h4 {
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+.jp_regis_right_side_box p {
+    padding-top: 20px;
+    color: #d9d7de;
+}
+.jp_regis_right_side_box ul {
+    position: relative;
+    bottom: -32px;
+    margin-top: 15px;
+}
+.regis_btn {
+    width: 260px;
+    margin: 0;
+    border-radius: 100px;
+    transition: all 0.3s;
+}
+.jp_regis_center_tag_wrapper {
+    width: 70px;
+    height: 70px;
+    background: #f3eeff;
+    position: absolute;
+    left: -34px;
+    right: -36px;
+    top: 46%;
+    margin-top: -20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    transform: rotate(45deg);
+}
+.jp_regis_center_tag_wrapper p {
+    color: #222;
+    font-size: 20px;
+    font-weight: bold;
+    transform: rotate(-45deg);
+    margin-top: 23px;
+}
+.jp_regis_left_side_box_wrapper:hover i:before, .jp_regis_right_side_box:hover i:before {
+    color: #7c61fe;
+    transition: all 0.3s;
+}
+.jp_regis_left_side_box_wrapper:hover .regis_btn, .jp_regis_right_side_box_wrapper:hover .regis_btn {
+    background: rgb(9 23 59) 25%;
+    color: #fff;
+    background: linear-gradient(90deg, rgb(9 23 59) 25% 25%, rgb(109, 104, 254) 100%);
+    transition: all 0.5s;
+}

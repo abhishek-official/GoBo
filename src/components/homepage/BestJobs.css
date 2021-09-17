@@ -1,0 +1,161 @@
+.best_jobs_wrapper {
+    background: #fff;
+    position: relative;
+    padding: 90px 0;
+    float: left;
+    width: 100%;
+}
+.line_shape {
+    position: absolute;
+    top: 30%;
+    left: -150px;
+}
+
+.best_jobs_wrapper .list-group {
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    border-radius: 100px;
+    flex: 0 0 26%;
+    max-width: 26%;
+    margin: auto;
+}
+.best_jobs_wrapper .list-group-item {
+    padding: 15px 45px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+    display: block;
+    width: 100%;
+    border-radius: 100px;
+    border: transparent;
+}
+.best_jobs_wrapper .list-group-item.active {
+    border-radius: 100px;
+    background: rgb(9 23 59) 25%;
+    background: linear-gradient(90deg, rgb(9 23 59) 25% 25%, rgb(109, 104, 254) 100%);
+    color: #fff !important;
+    border: 0;
+}
+.latest_job_tabs {
+    float: left;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 100%;
+}
+/* .best_jobs_wrapper .list-group-item-action {
+    width: auto;
+} */
+
+.slider_small3_shape {
+    position: absolute;
+    right: -125px;
+    bottom: -27px;
+    z-index: 1;
+    -webkit-animation: moveleftbounce 3.0s linear infinite;
+    animation: moveleftbounce 3.0s linear infinite;
+}
+.job_listing_left_fullwidth {
+    margin-top: 30px;
+    border: 1px solid #e2e2e2;
+    background: #f5f5f5;
+    padding: 40px 30px;
+    transition: all 0.5s;
+    border-radius: 100px;
+}
+.best_jobs_wrapper .jp_job_post_side_img {
+    width: 120px;
+    line-height: 105px;
+    position: relative;
+    float: left;
+}
+.best_jobs_wrapper .jp_job_post_right_cont {
+    width: calc(100% - 120px);
+    padding-top: 0;
+    padding-left: 12px;
+    float: left;
+}
+.best_jobs_wrapper .jp_job_post_side_img:after {
+    content: '';
+    right: 20px;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: #e2e2e2;
+    position: absolute;
+}
+
+.jp_job_post_right_cont h4 a {
+    text-transform: capitalize;
+    padding-bottom: 12px;
+    float: left;
+    width: 100%;
+    line-height: 20px;
+    font-size: 22px;
+    color: #222;
+}
+.best_jobs_wrapper .jp_job_post_right_cont li {
+    float: left;
+    width: auto;
+    margin-right: 15px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.jp_job_post_right_cont li:first-child {
+    margin-left: 0;
+    color: #393939;
+    font-size: 16px;
+}
+.jp_job_post_right_cont li:last-child {
+    color: #797979;
+    font-size: 16px;
+}
+.best_jobs_wrapper .jp_job_post_right_cont p {
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+    transition: all 0.5s;
+    margin-bottom: 0;
+}
+.job_listing_left_fullwidth:hover {
+    background: rgb(9 23 59) 25%;
+    background: -moz-linear-gradient(90deg, rgb(9 23 59) 25% 25%, rgb(109, 104, 254) 100%);
+    background: -webkit-linear-gradient(
+90deg, rgb(9 23 59) 25% 25%, rgb(109, 104, 254) 100%);
+    background: linear-gradient(
+90deg, rgb(9 23 59) 25% 25%, rgb(109, 104, 254) 100%);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.job_listing_left_fullwidth:hover .jp_job_post_right_cont h4 a, .job_listing_left_fullwidth:hover .jp_job_post_right_cont li i, 
+.job_listing_left_fullwidth:hover .jp_job_post_right_cont li, .job_listing_left_fullwidth:hover .jp_job_post_right_cont p {
+    color: #fff;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.view-all a{
+    float: none;
+    display: inline-block;
+    width: 185px;
+}
+
+/* .best_jobs_wrapper .jp_job_post_right_cont li i, .control_wrapper .services_content:hover h3 a {
+    color: #09173b;
+} */
+.jp_job_post_right_cont li i {
+    color: #09173b;
+    float: left;
+    line-height: 30px;
+}

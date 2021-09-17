@@ -1,0 +1,105 @@
+.download_wrapper {
+    width: 100%;
+    float: left;
+    height: 100%;
+    background-position: center 0;
+    background-size: cover;
+    position: relative;
+    padding: 200px 0;
+    overflow: hidden;
+    padding-bottom: 220px;
+}
+.download_mockup_design img {
+    width: 750px;
+    animation: movebounce 3.9s linear infinite;
+}
+.download_mockup_design {
+    left: -165px;
+    top: -132px;
+    position: absolute;
+}
+.download_app_store {
+    float: left;
+    width: 100%;
+}
+.download_app_store h1 {
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #222;
+    font-family: 'poppinsbold';
+}
+.download_app_store h2 {
+    font-size: 44px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    color: #222;
+}
+.download_app_store p {
+    font-size: 16px;
+    color: #222;
+}
+.app_btn {
+    margin-top: 40px;
+    float: left;
+    width: 100%;
+}
+.app_btn a.ss_playstore {
+    margin-left: 20px;
+}
+.playstore_2 a {
+    height: 50px;
+    line-height: 50px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+
+.app_btn a {
+    float: right;
+    width: 210px;
+    height: 60px;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: #222;
+    font-size: 16px;
+    text-align: center;
+    padding-right: 30px;
+    background: #ffffff;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.app_btn a.ss_playstore span {
+    border-right: 1px solid #e2e2e2;
+}
+
+.app_btn a span {
+    float: left;
+    width: 65px;
+    height: 60px;
+    border-right: 1px solid #e2e2e2;
+    margin-right: 20px;
+}
+.app_btn .ss_appstore span i:before {
+    font-size: 22px;
+    color: #edcc30;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.app_btn .ss_playstore span i:before {
+    font-size: 22px;
+    color: #09173b;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
